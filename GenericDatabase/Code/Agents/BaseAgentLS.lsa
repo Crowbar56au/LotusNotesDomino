@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<agent name='BaseAgentLS' alias='baseagentls' xmlns='http://www.lotus.com/dxl'
+ version='9.0' maintenanceversion='1.0' replicaid='CA2584B7007D878C' hide='v3'
+ publicaccess='false' designerversion='8.5.3'>
+<noteinfo noteid='186' unid='791D21DB5D33F543CA2584B7008003BC' sequence='7'>
+<created><datetime dst='true'>20191120T101815,64+11</datetime></created>
+<modified><datetime dst='true'>20191120T102123,69+11</datetime></modified>
+<revised><datetime dst='true'>20191120T102123,68+11</datetime></revised>
+<lastaccessed><datetime dst='true'>20191120T102123,69+11</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20191120T101815,67+11</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></updatedby>
+<wassignedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></wassignedby>
+<designchange><datetime dst='true'>20191120T102123,68+11</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='selected'/><code event='options'><lotusscript>%REM
+	Agent BaseAgentLS
+	Created Nov 20, 2019 by Bruce Langner/DEVELOPER/TGADEV
+	Description: Comments for Agent
+%END REM
+Option Public
+Option Declare
+
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	
+	Dim Sess As New NotesSession
+	Dim DB As NotesDatabase
+	Dim view As NotesView
+	Dim doc As NotesDocument
+	Dim itm As NotesItem
+	
+	Set DB = Sess.Currentdatabase
+	Set view = DB.GetView("baseview")
+	
+	If Not view Is Nothing Then
+		'do stuff here
+	End If
+	
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime dst='true'>20191120T102123,65+11</datetime></agentmodified></rundata></agent>
+

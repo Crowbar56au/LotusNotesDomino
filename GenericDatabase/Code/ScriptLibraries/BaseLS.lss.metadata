@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.0" replicaid="CA2584B7007D878C" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="196" sequence="3" unid="DE67C35BA4D84644CA2584B7008062DF">
+<created><datetime dst="true">20191120T102219,19+11</datetime></created>
+<modified><datetime dst="true">20191120T102227,13+11</datetime></modified>
+<revised><datetime dst="true">20191120T102227,12+11</datetime></revised>
+<lastaccessed><datetime dst="true">20191120T102227,13+11</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20191120T102219,21+11</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></updatedby>
+<wassignedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></wassignedby>
+<item name="$TITLE" sign="true"><text>BaseLS</text></item>
+<item name="$Flags"><text>s34Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$Comment"><text>the base script library for common workflow code in Lotusscript</text></item></note>

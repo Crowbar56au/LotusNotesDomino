@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view name='Base' alias='baseview' xmlns='http://www.lotus.com/dxl' version='9.0'
+ maintenanceversion='1.0' replicaid='CA2584B7007D878C' showinmenu='false'
+ publicaccess='false' designerversion='8.5.3' default='true' unreadmarks='none'
+ onopengoto='lastopened' onrefresh='displayindicator' headers='beveled' opencollapsed='false'
+ showresponsehierarchy='true' showmargin='true' shrinkrows='false' extendlastcolumn='false'
+ showhierarchies='false' unreadcolor='black' rowlinecount='1' headerlinecount='1'
+ rowspacing='1' bgcolor='white' totalscolor='black' headerbgcolor='white'
+ boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
+ allowcustomizations='false' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
+ uniquekeys='false'>
+<noteinfo noteid='116' unid='D0CFD233F9116B97CA2584B7007D878E' sequence='4'>
+<created><datetime dst='true'>20191120T095107,02+11</datetime></created>
+<modified><datetime dst='true'>20191120T102044,57+11</datetime></modified>
+<revised><datetime dst='true'>20191120T102044,56+11</datetime></revised>
+<lastaccessed><datetime dst='true'>20191120T102044,57+11</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20191120T095107,04+11</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></updatedby>
+<wassignedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></wassignedby><code
+ event='selection'><formula>SELECT Form = "base"</formula></code>
+<actionbar bgcolor='#f0f0f0' bordercolor='black'>
+<actionbuttonstyle bgcolor='#f0f0f0'/><font color='system'/><border style='solid'
+ width='0px 0px 1px'/>
+<action title='Categori_ze' showinbar='false' systemcommand='categorize'/>
+<action title='_Edit Document' showinbar='false' systemcommand='edit'/>
+<action title='_Send Document' showinbar='false' systemcommand='send'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Move To Folder...' showinbar='false' systemcommand='movetofolder'/>
+<action title='_Remove From Folder' showinbar='false' systemcommand='removefromfolder'/>
+<action title='_Read' showinbar='false' systemcommand='markread'/>
+<action title='_Unread' showinbar='false' systemcommand='markunread'/>
+<action title='_Open in New Window' showinbar='false' systemcommand='openinnewwindow'/>
+<action title='_Print...' showinbar='false' systemcommand='print'/>
+<action title='_Delete' showinbar='false' systemcommand='delete'/>
+<action title='_Document Properties' showinbar='false' systemcommand='properties'/>
+<action title='C_ut' showinbar='false' systemcommand='cut'/>
+<action title='_Copy' showinbar='false' systemcommand='copy'/>
+<action title='Copy as Document _Link' showinbar='false' systemcommand='copyasdoclink'/>
+<action title='Copy as _Table' showinbar='false' systemcommand='copyastable'/>
+<action title='P_aste' showinbar='false' systemcommand='paste'/>
+<action title='_Open' showinbar='false' systemcommand='open'/>
+<action title='Bookmark' showinbar='false' systemcommand='bookmark'/></actionbar>
+<column sort='ascending' hidedetailrows='false' itemname='Category' width='10'
+ resizable='true' separatemultiplevalues='true' sortnoaccent='true' sortnocase='true'
+ showaslinks='false' categorized='true'><columnheader title='Category'><font
+ size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' itemname='Version' width='10' resizable='true'
+ separatemultiplevalues='false' sortnoaccent='false' sortnocase='true' showaslinks='false'><columnheader
+ title='Version'><font size='9pt' style='bold'/></columnheader></column>
+<column hidedetailrows='false' listseparator='newline' itemname='MultiValueText'
+ width='33.6250' resizable='true' separatemultiplevalues='false' sortnoaccent='false'
+ sortnocase='true' showaslinks='false'><columnheader title='MultiValueText'><font
+ size='9pt' style='bold'/></columnheader></column></view>
+

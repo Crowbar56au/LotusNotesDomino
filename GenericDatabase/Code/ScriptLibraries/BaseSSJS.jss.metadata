@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.0" replicaid="CA2584B7007D878C" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="19a" sequence="2" unid="0A2A6CD9E86C3C60CA2584B700807542">
+<created><datetime dst="true">20191120T102306,26+11</datetime></created>
+<modified><datetime dst="true">20191120T102347,73+11</datetime></modified>
+<revised><datetime dst="true">20191120T102347,72+11</datetime></revised>
+<lastaccessed><datetime dst="true">20191120T102347,73+11</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20191120T102306,27+11</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></updatedby>
+<wassignedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></wassignedby>
+<item name="$TITLE" sign="true"><text>BaseSSJS</text></item>
+<item name="$Flags"><text>.5834Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+<item name="$Comment"><text>the base script library for common routines written in server side javascript</text></item></note>

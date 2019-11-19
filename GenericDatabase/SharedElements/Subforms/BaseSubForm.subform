@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<subform name='BaseSubForm' alias='basesf' xmlns='http://www.lotus.com/dxl'
+ version='9.0' maintenanceversion='1.0' replicaid='CA2584B7007D878C' designerversion='8.5.3'
+ renderpassthrough='true'>
+<noteinfo noteid='17a' unid='BA1364B2658AED7CCA2584B7007F23CA' sequence='2'>
+<created><datetime dst='true'>20191120T100842,34+11</datetime></created>
+<modified><datetime dst='true'>20191120T100952,58+11</datetime></modified>
+<revised><datetime dst='true'>20191120T100952,57+11</datetime></revised>
+<lastaccessed><datetime dst='true'>20191120T100952,58+11</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20191120T100842,71+11</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></updatedby>
+<wassignedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></wassignedby>
+<body><richtext>
+<pardef id='1'/>
+<par def='1'/>
+<par def='1'>This is a subform field	<field type='keyword' kind='editable'
+ name='bsf_lookup'><keywords ui='dialoglist'><textlist><text>First choice</text><text
+>Second choice</text><text>Third choice</text></textlist></keywords></field></par></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>basesf</text></item></subform>
+

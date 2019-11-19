@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="CA2584B7007D878C" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="17e" sequence="12" unid="289AE5C8D06D7AE6CA2584B7007F5A1D">
+<created><datetime dst="true">20191120T101101,41+11</datetime></created>
+<modified><datetime dst="true">20191120T101318,63+11</datetime></modified>
+<revised><datetime dst="true">20191120T101318,62+11</datetime></revised>
+<lastaccessed><datetime dst="true">20191120T101318,63+11</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20191120T101101,42+11</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></updatedby>
+<wassignedby><name>CN=Bruce Langner/OU=DEVELOPER/O=TGADEV</name></wassignedby>
+<item name="$Flags"><text>gC~4;</text></item>
+<item name="$TITLE"><text>BaseCC.xsp</text></item>
+<item name="$Comment" sign="true"><text>a custom control for the Base Xpage</text></item>
+
+
+
+<item name="$FileNames" sign="true"><text>BaseCC.xsp</text></item>
+
+
+<item name="$DesignerVersion"><text>8.5</text></item>
+
+
+
+</note>
